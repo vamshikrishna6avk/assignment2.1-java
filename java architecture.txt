@@ -1,0 +1,28 @@
+JAVA ARCHITECTURE:
+Java architecture consists of:
+                              1)Source code
+                              2)Java compiler
+                              3)Byte code
+                              4)JVM
+                              5)Operating System
+Source code     :Programming langauge is a set of instructions which is used to create program.
+                 These instructions which is used to create programme known as source code.
+                 In this programme the source code convert into .classfile that is byte code.
+                 Source code is a text document.
+Java compiler   :Java compiler is a compiler for the programming language.
+                 The most common form of output from a java compiler is java class file.
+Byte code       :Byte code is the compiled format for java programms.
+                 Once a java program is converted to byte code,it transferred across a network and executed by JVM.
+Bytecode Verifier:When a class loader presents the bytecodes of a newly loaded Java platform class to the virtual machine, these bytecodes are first                  inspected by a verifier. The verifier checks that the instructions cannot perform actions that are obviously damaging.
+JVM             :Java virtual machine is used to read the lines and execute that is responsible to execute java programm line by line.
+                 JVM is used to run programms in JRE.
+Class Loaders   :The Java Classloader is a part of the Java Runtime Environment that dynamically loads Java classes into the Java Virtual Machine.                   Usually classes are only loaded on demand. The Java run time system does not need to know about files and file systems because of                    classloaders
+Operating system:Basically operatinvg system is a software that manages computer hardware and software resources.
+                 Java os is a operating system with a java virtual machine as a fundamental component.
+Java architecture also consists of JIT(JUST-IN-TIME) compiler.
+Just-in-time    :JIT compiler improves  performance of java programms.
+*JRE(java runtime environment):JRE is only used to run java environment or application.
+                               JRE is combination of JVM with other tools like class loader,Byte code                                                                               verifier,java API,class libraries.
+                               class loader:class loader loads the byte code and stores into memory.
+                               On client machine JRE should get installed.
+
